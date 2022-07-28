@@ -1,5 +1,3 @@
-#include<Servo.h>
-
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -8,9 +6,6 @@
 #define BLYNK_TEMPLATE_ID "templateID"
 #define BLYNK_DEVICE_NAME "divice_name "
 #define BLYNK_AUTH_TOKEN "yourauthtoken"
-
-
-Servo servo_1;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "ssid";
